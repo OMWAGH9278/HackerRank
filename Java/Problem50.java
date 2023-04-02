@@ -4,50 +4,48 @@ public class Problem50 {
 
     public static boolean canWin(int leap, int[] game) {
         
-        int i = 0;
-        try
+        int n = game.length;
+        boolean used[] = new boolean[n];
+        Stack<Integer> s = new Stack<>();
+        s.push(0);
+        used[0] = true;
+        while(s.size() != 0)
         {
-            for(i = 0; i < game.length; i++)
+            int i = s.pop();
+            if((i+1 >= n) || (i+leap >= n))
+                return true;
+            if((i-1 >= 0) && (game[i-1] == 0) && (used[i-1] == false))
             {
-                System.out.println(i);
-                if(game[i+1] == 0)
-                    continue;
-                else if(game[i+leap] == 0){
-                    i+=(leap-1);
-                    continue;
-                }
-                else if((i != 0) && (game[i-1] == 0)){
-                    i-=2;
-                    continue;
-                }
-                else if((i >= leap) && (game[i-leap] == 0)){
-                    i-=(leap+1);
-                    continue;
-                }
-                else{
-                    break;
-                }
+                s.push(i-1);
+                used[i-1] = true;
+            }
+            if((i+1 < n) && (game[i+1] == 0) && (used[i+1] == false))
+            {
+                s.push(i+1);
+                used[i+1] = true;
+            }
+            if((i+leap < n) && (game[i+leap] == 0) && (used[i+leap] == false))
+            {
+                s.push(i+leap);
+                used[i+leap] = true;
             }
         }
-        catch(ArrayIndexOutOfBoundsException obj)
-        {
-            return true;
-        }
-        if(i < game.length-1)
-            return (false);
-        else
-            return (true);
+        return false;
+        
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scan = new Scanner(System.in);
         int q = scan.nextInt();
-        while (q-- > 0) {
+        while (q-- > 0) 
+        {
             int n = scan.nextInt();
             int leap = scan.nextInt();
             
             int[] game = new int[n];
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < n; i++) 
+            {
                 game[i] = scan.nextInt();
             }
 

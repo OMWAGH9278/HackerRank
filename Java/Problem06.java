@@ -1,8 +1,28 @@
-public class Problem01 
+
+// Java Loops I
+
+import java.io.*;
+
+class Arithmetic
 {
-    public static void main(String a[]) 
+    public void table(int iNo)
     {
-        System.out.println("Hello, World.");
-        System.out.println("Hello, Java.");
+        int iCnt = 0;
+
+        for(iCnt = 1; iCnt <= 10; iCnt++)
+            System.out.println(iNo+" x "+iCnt+" = "+iCnt*iNo);
     }
 }
+
+class Problem06
+{
+    public static void main(String arg[]) throws IOException 
+    {
+        BufferedReader bobj = new BufferedReader(new InputStreamReader(System.in));
+        int iValue = Integer.parseInt(bobj.readLine().trim());
+        Arithmetic aobj = new Arithmetic();
+        aobj.table(iValue);
+        bobj.close();
+    }
+}
+
