@@ -1,6 +1,12 @@
+
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE : JAVA 1-D ARRAY II
+*/
+
 import java.util.*;
 
-public class Problem50 {
+public class Java1DArrayII {
 
     public static boolean canWin(int leap, int[] game) {
         

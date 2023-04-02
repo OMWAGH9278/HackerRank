@@ -1,9 +1,12 @@
 
-// Java Datatypes
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA DATATYPES
+*/ 
 
 import java.util.*;
 
-class Solution
+class JavaDatatypes
 {
     public static void main(String arg[])
     {

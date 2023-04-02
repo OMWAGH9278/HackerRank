@@ -1,9 +1,12 @@
 
-// Java If-Else
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA IF-ELSE
+*/ 
 
 import java.util.*;
 
-public class Problem03 
+public class JavaIfElse 
 {
     private static final Scanner sobj = new Scanner(System.in);
 

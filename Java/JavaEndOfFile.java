@@ -1,9 +1,12 @@
 
-// Java End-of-file
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA END-OF-FILE
+*/ 
 
 import java.util.Scanner;
 
-public class Problem09 
+public class JavaEndOfFile 
 {
     public static void main(String arg[]) 
     {

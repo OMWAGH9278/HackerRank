@@ -1,5 +1,8 @@
 
-// Java Loops I
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA LOOPS I
+*/  
 
 import java.io.*;
 
@@ -14,7 +17,7 @@ class Arithmetic
     }
 }
 
-class Problem06
+class JavaLoopsI
 {
     public static void main(String arg[]) throws IOException 
     {

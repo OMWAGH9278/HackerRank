@@ -1,9 +1,12 @@
 
-// Java Stdin and Stdout I
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA STDIN AND STDOUT I
+*/ 
 
 import java.util.*;
 
-public class Problem02 
+public class JavaStdinAndStdoutI 
 {
     public static void main(String args[]) 
     {

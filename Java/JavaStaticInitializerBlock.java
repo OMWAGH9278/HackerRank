@@ -1,9 +1,12 @@
 
-// Java Static Initializer Block
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA STATIC INITIALIZER BLOCK
+*/
 
 import java.util.*;
 
-public class Problem10 
+public class JavaStaticInitializerBlock 
 {
     public static boolean flag;
     public static int B;

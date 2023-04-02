@@ -1,10 +1,13 @@
 
-// Java Loops II
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA LOOPS II
+*/  
 
 import java.util.*;
 import java.lang.Math;
 
-class Solution
+class JavaLoopsII
 {
     public static void main(String arg[])
     {

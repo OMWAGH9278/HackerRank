@@ -1,7 +1,13 @@
+
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE : TAG CONTENT EXTRACTER
+*/
+
 import java.util.*;
 import java.util.regex.*;
 
-public class Problem49
+public class TagContentExtracter
 {
 	public static void main(String[] args)
     {	

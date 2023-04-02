@@ -1,7 +1,10 @@
 
-// Welcome To Java!
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE : WELCOME TO JAVA
+*/
 
-public class Problem01 
+public class WelcomeToJava 
 {
     public static void main(String a[]) 
     {

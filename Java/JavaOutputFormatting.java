@@ -1,9 +1,12 @@
 
-// Java Output Formatting
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA OUTPUT FORMATTING
+*/ 
 
 import java.util.Scanner;
 
-public class Problem05 
+public class JavaOutputFormatting 
 {
     public static void main(String[] args) 
     {
