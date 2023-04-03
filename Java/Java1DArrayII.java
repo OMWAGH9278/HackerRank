@@ -6,10 +6,10 @@
 
 import java.util.*;
 
-public class Java1DArrayII {
-
-    public static boolean canWin(int leap, int[] game) {
-        
+public class Java1DArrayII 
+{
+    public static boolean canWin(int leap, int[] game) 
+    {
         int n = game.length;
         boolean used[] = new boolean[n];
         Stack<Integer> s = new Stack<>();
@@ -20,11 +20,7 @@ public class Java1DArrayII {
             int i = s.pop();
             if((i+1 >= n) || (i+leap >= n))
                 return true;
-            if((i-1 >= 0) && (game[i-1] == 0) && (used[i-1] == false))
-            {
-                s.push(i-1);
-                used[i-1] = true;
-            }
+            
             if((i+1 < n) && (game[i+1] == 0) && (used[i+1] == false))
             {
                 s.push(i+1);
@@ -35,9 +31,13 @@ public class Java1DArrayII {
                 s.push(i+leap);
                 used[i+leap] = true;
             }
+            if((i-1 >= 0) && (game[i-1] == 0) && (used[i-1] == false))
+            {
+                s.push(i-1);
+                used[i-1] = true;
+            }
         }
         return false;
-        
     }
 
     public static void main(String[] args) 
