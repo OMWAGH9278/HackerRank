@@ -18,13 +18,13 @@ class JavaStack
                 {
                     return (false);
                 }
-            }
-            else 
-            {
-                char last = s.pop();
-                if((c == '{' && last != '}') || (c == '[' && last != ']') || (c == '(' && last != ')'))
+                else 
                 {
-                    return (false);
+                    char last = s.pop();
+                    if((c == '}' && last != '{') || (c == ']' && last != '[') || (c == ')' && last != '('))
+                    {
+                        return (false);
+                    }
                 }
             }
         }
