@@ -24,4 +24,3 @@ public class JavaStdinAndStdoutII
         sobj.close();
     }
 }
-
