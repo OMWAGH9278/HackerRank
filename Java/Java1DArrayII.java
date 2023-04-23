@@ -1,7 +1,7 @@
 
 /*
     AUTHOR : OM MANGESH WAGH
-    TITLE : JAVA 1-D ARRAY II
+    TITLE : JAVA 1D ARRAY II
 */
 
 import java.util.*;
