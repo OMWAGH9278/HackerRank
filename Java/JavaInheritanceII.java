@@ -12,9 +12,7 @@ abstract class Arithmetic
     }
 }
 final class Adder extends Arithmetic
-{
-    
-}
+{}
 
 public class JavaInheritanceII
 {

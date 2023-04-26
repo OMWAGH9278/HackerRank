@@ -11,6 +11,7 @@ import java.util.*;
 
 class Student
 {
+    
     private int id;
     private String fname;
     private double cgpa;
