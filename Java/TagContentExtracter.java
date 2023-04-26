@@ -9,6 +9,7 @@ import java.util.regex.*;
 
 public class TagContentExtracter
 {
+    
 	public static void main(String[] args)
     {	
 		Scanner in = new Scanner(System.in);
