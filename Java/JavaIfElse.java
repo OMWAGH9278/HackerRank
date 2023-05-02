@@ -8,7 +8,7 @@ import java.util.*;
 
 public class JavaIfElse 
 {
-    
+
     private static final Scanner sobj = new Scanner(System.in);
 
     public static void main(String[] args) 

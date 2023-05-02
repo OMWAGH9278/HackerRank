@@ -4,6 +4,7 @@ class JavaStack
 {	
     public static boolean isBalanced(String input)
     {
+        
         Stack<Character> s = new Stack<>();
         for(int i = 0; i < input.length(); i++)
         {

@@ -19,6 +19,7 @@ class Arithmetic
 
 class JavaLoopsI
 {
+    
     public static void main(String arg[]) throws IOException 
     {
         BufferedReader bobj = new BufferedReader(new InputStreamReader(System.in));

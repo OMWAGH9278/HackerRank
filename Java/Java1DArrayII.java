@@ -8,6 +8,7 @@ import java.util.*;
 
 public class Java1DArrayII 
 {
+    
     public static boolean canWin(int leap, int[] game) 
     {
         int n = game.length;
