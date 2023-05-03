@@ -8,8 +8,6 @@ import java.util.*;
 
 public class JavaStaticInitializerBlock 
 {
-    
-    
     public static boolean flag;
     public static int B;
     public static int H;

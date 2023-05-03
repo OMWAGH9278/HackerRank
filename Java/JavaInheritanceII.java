@@ -16,6 +16,7 @@ final class Adder extends Arithmetic
 
 public class JavaInheritanceII
 {
+    
     public static void main(String []args)
     {
         // Create a new Adder object

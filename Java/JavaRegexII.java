@@ -13,7 +13,6 @@ class JavaRegexII
     
     public static void main(String[] args) 
     {
-
         String regex = "\\b(\\w+)(\\s+\\1\\b)+";
         System.out.println(regex);
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);

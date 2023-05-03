@@ -1,3 +1,9 @@
+
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  JAVA COMPARATOR
+*/ 
+
 import java.util.*;
 
 class Checker implements Comparator<Player>

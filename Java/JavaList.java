@@ -1,14 +1,15 @@
 
 /*
     AUTHOR : OM MANGESH WAGH
-    TITLE :  JAVA SUBSTRING COMPARISON
+    TITLE :  JAVA LIST
 */ 
 
 import java.util.*;
 
-public class JavaList 
+class JavaList 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         List<Integer> arr = new ArrayList<>();

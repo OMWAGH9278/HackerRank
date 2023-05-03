@@ -1,3 +1,9 @@
+
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE : JAVA STACK
+*/
+
 import java.util.*;
 
 class JavaStack

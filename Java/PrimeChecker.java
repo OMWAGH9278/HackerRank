@@ -1,8 +1,11 @@
+
+/*
+    AUTHOR : OM MANGESH WAGH
+    TITLE :  PRIME CHECKER
+*/ 
+
 import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 import java.lang.reflect.*;
 
 import static java.lang.System.in;
@@ -33,10 +36,10 @@ class Prime
     }
 }
 
-
 public class PrimeChecker 
 {
-	public static void main(String[] args) 
+
+    public static void main(String[] args) 
     {
 		try
         {
