@@ -12,6 +12,7 @@ import static java.lang.System.in;
 
 class Prime
 {
+    
     public void checkPrime(int... arr) 
     {
         boolean isPrime = true;
