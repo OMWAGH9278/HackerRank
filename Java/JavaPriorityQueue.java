@@ -68,7 +68,8 @@ class Priorities
                 p.poll();
             }
         }
-        List<Student> list = new ArrayList<>(p);
+        List<Student> list = new ArrayList<>();
+        p.forEach((s)->list.add(s));
         list.sort(new MyComparator());
         return (list);
     }
