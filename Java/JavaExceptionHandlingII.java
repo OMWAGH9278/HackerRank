@@ -7,6 +7,7 @@
 import java.util.Scanner;
 
 class NonPositiveNumberException extends Exception {
+
     public NonPositiveNumberException(String message) {
         super(message);
     }
@@ -29,7 +30,6 @@ class MyCalculator {
         }
         long ans = Math.round(Math.pow(a, b));
         return (ans);
-
     }
 }
 

@@ -15,6 +15,7 @@ class Checker implements Comparator<Player> {
         int secondCompare = (p1.name.compareTo(p2.name));
         return (secondCompare);
     }
+
 }
 
 class Player {

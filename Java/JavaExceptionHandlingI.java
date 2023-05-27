@@ -23,5 +23,6 @@ public class JavaExceptionHandlingI {
         } catch (Exception obj) {
             System.out.println(obj);
         }
+
     }
 }

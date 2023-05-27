@@ -63,7 +63,6 @@ public class JavaFactoryPattern {
 }
 
 class Do_Not_Terminate {
-
 	public static class ExitTrappedException extends SecurityException {
 
 		private static final long serialVersionUID = 1L;
@@ -78,6 +77,7 @@ class Do_Not_Terminate {
 				}
 			}
 		};
+
 		System.setSecurityManager(securityManager);
 	}
 }
