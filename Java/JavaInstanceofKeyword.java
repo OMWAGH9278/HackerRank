@@ -46,6 +46,5 @@ public class JavaInstanceofKeyword {
                 mylist.add(new Hacker());
         }
         System.out.println(count(mylist));
-
     }
 }
