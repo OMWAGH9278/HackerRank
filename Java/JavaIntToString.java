@@ -12,7 +12,6 @@ public class JavaIntToString
     public static void main(String[] args) 
     {
         DoNotTerminate.forbidExit();
-
         try 
         {
             Scanner in = new Scanner(System.in);
